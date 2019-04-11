@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informacion dia mundial de la salud</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temaapp4.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!----grupo JavaScript-->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="phonegap.js"></script><!--necesario*/-->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<!----Menu Lateral--->
+  <link rel="stylesheet" href="css/sldr.css">
+ <link rel="stylesheet" href="css/style.css">
+ <script src="js/jsplug.js"></script>
+</head>
+
+<body>
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dia Internacional de la madre Tierra</h1>
+</div> 
+  <div class="container">
+ <div id="sidebar">
+ <ul data-role="listview" data-theme="a" class="ul-listview ui-group-theme-a">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>1; ¿por que se celebra?</h2>
+  </a>
+ </li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>2; Historia del Dia</h2>
+  </a>
+ </li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>3; la tierra que habitamos</h2>
+  </a>
+ </li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>4; dialogo sobre la armonia con la naturaleza</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>5; hacia una tierra sostenible</h2>
+</a>
+</li>
+</ul>
+</div>
+
+
+ <div class="main-content">
+ <div class="swipe-area"></div>
+  <a href="#" data-toggle=".container" id="sidebar-toggle">
+   <span class="bar"></span>
+   <span class="bar"></span>
+   <span class="bar"></span>
+   </a>
+  </div>
+  </div>
+  <center> 
+  <br>
+  <div class="slider">
+   <ul>
+    <li><img src="imagenes/planeta1.jpg" width="60%" height="60%"  alt="sldr"></li>
+    <li><img src="imagenes/planeta2.jpg" width="60%" height="60%" alt="sldr"></li>
+    <li><img src="imagenes/planeta3.jpg" width="60%" height="60%" alt="sldr"></li>
+    <li><img src="imagenes/planeta4.jpg" width="60%" height="60%" alt="sldr"></li>
+    <li><img src="imagenes/planeta5.jpg" width="60%" height="60%" alt="sldr"></li>
+    <li><img src="imagenes/planeta6.jpg" width="60%" height="60%" alt="sldr"></li>
+    <li><img src="imagenes/planeta7.jpg" width="60%" height="60%" alt="sldr"></li>
+    <li><img src="imagenes/planeta8.jpg" width="60%" height="60%" alt="sldr"></li>
+    </ul>
+  </div>
+ </center>
+ </div>
+ <center>
+ <div data-role="main" class="iu-content">
+ <br>
+ <br> <br> <br> <br> <br> <br> <br> <br> <br>
+  <div data-role="collapsible" data-comtent-theme="false">
+   <h1>Realizado por: </h1>
+    <h2>Nicolas Sanchez Cuellar</h2>
+    <p>4°semestre grupo "G"</p>
+    <h1>Especialidad:</h1>
+    <p>programacion</p>
+    <h2>Submodulo.</h2>
+    <p>Desarrola aplicaciones moviles</p>
+    <h2>Docente:</h2>
+    <p>Lic.José Antonio Gómez Hernández</p>
+   </div>
+  </div>
+ </center>
+ 
+<div data-role="footer" align="center" dta-theme="a" data-position="fixed">
+<div>
+<h4>Dia de la Madre tierra</h4>
+<h4>Nicolas Sanchez Cuellar</h4><img src="imagenes/planeta.png" width="46" height="46">
+</div>
+ </div>
+</div>
+
+<!---pagina 1-->
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>¿por que celebra?</h1>
+ </div>
+ 
+<div data-role="main" class="ui-content">
+   <p>
+ Celebramos el dia internacional de la madre tierra para recordar que el planeta y su ecosistemas nos dan la vida y el sustento. Con este dia, asumimos, ademas, la responsabilidad colectiva, com nos recordaba la declaracion de rio de 1992, de fomentar esta armonia con la naturaleza y la madre tierra.
+  </p> 
+  <center>
+  
+  <div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','imagenes/planeta2.jpg',1)"><img src="imagenes/planeta1.jpg" width="40%" height="40%" id="Image1"></a>
+   	</div>
+   	</center>
+  </div>
+ <center>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+     <a href="https://elblogverde.com/dia-de-la-tierra-como-celebrarlo/" target="_self" data-role="button"><p>ver mas</p></a>
+       
+       </li>
+       </ul>
+   </div>
+  </div>
+   </center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+  <h4>Nicolas Sanchez Cuellar</h4><img src="imagenes/planeta.png" width="46" height="46">
+</div>
+<h4>Aplicacion 4 dia internacional de la madre tierra</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>historia del dia</h1>
+	</div>
+	<div data-role="content" align="center">
+		<div>
+			<p>
+            El Día de la Tierra es una manifestación más de nuestra naturaleza. Una celebración del respeto que le tenemos al planeta a pesar de los errores que cometemos durante nuestra existencia. Esta es su historia.
+            </p>
+ 		</div>
+ 	<div>
+   		 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/planeta5.jpg',1)"><img src="imagenes/planeta2.jpg" width="236" height="254" id="Image3"></a>
+   	</div>
+	<center>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+     <a href="http://onu.org.pe/dias-internacionales/dia-internacional-de-la-madre-tierra/" target="_self" data-role="button"><p>ver mas</p></a>
+       
+       </li>
+     </ul>
+   </div>
+  </div>
+   </center>
+   <center>
+<div data-role="main" class="iu-content">
+  <div data-role="collapsible" data-comtent-theme="false">
+   <h1>Dia internacional de la salud </h1>
+    <p>celebralo este 22 de abril</p>
+    <div>
+    </div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/planeta11.jpg',1)"><img src="imagenes/planeta3.jpg" width="40%" height="40%" id="Image15"></a>
+    </div>
+   </div>
+    </center>
+    </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/planeta.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 4 dia internacional de la madre tierra</h4>
+<h4>Nicolas Sanchez Cuellar</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+		<h1>La tierra que habitamos</h1>
+	</div>
+	<div data-role="content" align="center">
+		<div>
+         <p>
+      Madre Tierra es una expresión común utilizada para referirse al Planeta Tierra en diversos países y regiones, lo que demuestra la interdependencia existente entre los seres humanos, las demás especies vivas y el planeta que todos habitamos.
+
+La Tierra y sus ecosistemas son nuestro hogar. Para alcanzar un justo equilibrio entre las necesidades económicas, sociales y ambientales de las generaciones presentes y futuras, es necesario promover la armonía con la naturaleza y el planeta.
+
+Celebramos el Día Internacional de la Madre Tierra para recordar que el planeta y sus ecosistemas nos dan la vida y el sustento. Con este día, asumimos, además, la responsabilidad colectiva, como nos recordaba la Declaración de Río de 1992, de fomentar esta armonía con la naturaleza y la Madre Tierra.
+       </p>
+  </div>
+      <img src="imagenes/planeta16.jpg" width="1200" height="628" alt=""/>
+ </div>
+ <center>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+     <a href="https://www.un.org/es/events/motherearthday/" target="_self" data-role="button"><p>ver mas</p></a>
+       </li>
+     </ul>
+   </div>
+  </div>
+   </center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/planeta.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 4 internacional de la madre tierra</h4>
+<h4>Nicolas Sanchez Cuellar</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>Dialogo sobre la armonia con la naturaleza</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+     <p>
+    El 23 de abril de 2018 se realizó en la sede de las Naciones Unidas en Nueva York, el 8° Diálogo Interactivo sobre Armonía con la Naturaleza, en ocasión de la conmemoración del Día Internacional de la Madre Tierra.
+
+El evento fue convenido por el Presidente de la Asamblea General, Miroslav Lajcak, quien destacó la importancia del Diálogo para intercambiar ideas sobre desarrollo y patrones de producción y consumo sostenibles en armonía con la naturaleza.
+    </p>
+</div>
+
+<div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image25','','imagenes/planeta16.jpg',1)"><img src="imagenes/planeta14.jpg"  width="60%" height="60%" id="Image25"></a>
+</div>
+
+
+  <center>
+<div data-role="main" class="ui-content" align="center">
+ <div style="width:30%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+     <a href="" target="_self" data-role="button"><p>ver mas</p></a>
+       </li>
+     </ul>
+   </div>
+  </div>
+   </center>
+   </div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/planeta.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 4 dia internacional de la madre tierra </h4>
+<h4>Nicolas Sanchez Cuellar</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+ <h1>Hcia una tierra sostenible</h1>
+  </div>
+<div data-role="content" align="center">
+
+<div>
+   <p>
+     En diciembre de 2009 la Asamblea General aprobó la resolución 64/236, en virtud de la cual decidió organizar la Conferencia de las Naciones Unidas sobre el Desarrollo Sostenible. Esta Conferencia se realizará en Río de Janeiro (Brasil) en junio de 2012, 20 años después de la Conferencia de las Naciones Unidas sobre el Medio Ambiente y el Desarrollo, conocida como Cumbre para la Tierra, y constituye una oportunidad histórica para hacer un balance de lo sucedido en estas dos décadas, evaluar los advances logrados y las dificultades encontradas y explorar nuevas formas de cooperación que permitan acelerar la transición hacia un desarrollo sostenible. Los Estados Miembros han acordado analizar dos temas principales para la Conferencia: a) una economía verde en el contexto del desarrollo sostenible y la erradicación de la pobreza y b) el marco institucional para el desarrollo sostenible.El documento que presentamos está dividido en dos partes: por un lado se evalúan los advances logrados y las dificultades encontradas en América Latina y el Caribe en la implementación de los compromisos mundiales sobre el desarrollo sostenible desde 1992 y, por otro, se proponen lineamientos para transitar hacia un desarrollo sostenible en la región.La aceptación del concepto de desarrollo sostenible por parte de la comunidad internacional, divulgado ampliamente a través de la Declaración de Río sobre el Medio Ambiente y el Desarrollo, fue un gran logro de la Cumbre para la Tierra de 1992. Sin embargo, 20 años después, si bien se han alcanzado grandes progresos, aún no se logra un cambio en el modelo de desarrollo que permita avanzar simultánea y sinérgicamente en las dimensiones social, económica y ambiental del desarrollo.La necesidad de transitar hacia un nuevo modelo de desarrollo, que tenga el valor de la igualdad en el centro de sus acciones y que sea capaz de ir adelante en forma simultánea con el desarrollo social, el crecimiento de la economía y la sostenibilidad ambiental pone a la región y al mundo ante un imperative de cambio. El desarrollo no puede seguir perpetuando la pobreza y la desigualdad, ni deteriorando permanentemente los recursos naturales y los ecosistemas. Existe ya una irrefutable evidencia que demuestra que la protección de los ecosistemas y de sus servicios redunda en la calidad de las condiciones de salud, de integridad física, de seguridad alimentaria y de otros aspectos básicos para la seguridad humana y para el bienestar de las personas y las comunidades.Un problema reiterado y transversal es la resistencia o incapacidad para considerar plenamente todos los costos de la actividad económica en las políticas, normas y decisiones de inversión. De ahí la multiplicidad de externalidades negativas ambientales y de salud, origen de casi la totalidad de la problemática ambiental. Agravadas dichas externalidades por las altas tasas de descuento de la inversión, una parte importante de los costos de la actividad económica recae inequitativamente sobre los más vulnerables de esta generación y sobre las generaciones futuras.La propuesta de las Naciones Unidas para reflexionar sobre una "economía verde, en el context del desarrollo sostenible y la erradicación de la pobreza", aspira a catalizar los cambios requeridos en la región. Según el principio de las responsabilidades comunes pero diferenciadas, la economía verde se entiende en oposición a una economía marrón, que parcializa, contamina, excluye y destruye. Una economía verde es aquella que incrementa y privilegia el bienestar humano y la equidad social, a la vez que reduce significativamente los riesgos ambientales y las escaseces ecológicas.Con esta propuesta se intenta rediseñar las políticas públicas específicas para fomentar un desarrollo bajo en carbono, resiliente a los desastres y al cambio climático, crear empleos verdes e integrar en las decisiones los costos y beneficios económicos asociados al uso de los servicios y materiales de los ecosistemas. En una economía para el desarrollo sostenible se requiere reducir los impactos ambientales negativos, como las emisiones de carbono y la contaminación, a la vez que promover la eficiencia en el uso de la energía y de los recursos y evitar la pérdida de diversidad biológica y de los servicios de los ecosistemas, logrando mejorar el bienestar de los ciudadanos presentes y futuros.Los acuerdos internacionales, sean globales o regionales, pueden y deben contribuir a estos objetivos, favoreciendo un entorno propicio e incentivos que garanticen una mayor inclusión social, un acceso e intercambio justos y sostenibles de bienes y servicios de los ecosistemas y el cuidado de los bienes públicos ambientales globales.Este informe fue elaborado bajo la coordinación de la Comisión Económica para América Latina y el Caribe (CEPAL), como titular del Mecanismo de Coordinación Regional, en estrecha colaboración con las oficinas regionales de los demás organismos del sistema de las Naciones Unidas, en particular con el Programa de las Naciones Unidas para el Medio Ambiente (PNUMA), el Programa de las Naciones Unidas para el Desarrollo (PNUD), el Fondo de Población de las Naciones Unidas (UNFPA), la Organización de las Naciones Unidas para la Alimentación y la Agricultura (FAO), el Programa de las Naciones Unidas para los Asentamientos Humanos (ONU-Hábitat), la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO), la Entidad de las Naciones Unidas para la Igualdad entre los Géneros y el Empoderamiento de las Mujeres (ONU-Mujeres), el Fondo de las Naciones Unidas para la Infancia (UNICEF), la Oficina del Alto Comisionado de las Naciones Unidas para los Derechos Humanos (ACNUDH), el Programa Conjunto de las Naciones Unidas sobre el VIH/SIDA (ONUSIDA), el Centro de las Naciones Unidas para el Desarrollo Regional, el Programa Mundial de Alimentos (PMA), la Organización Panamericana de la Salud (OPS), la Oficina de las Naciones Unidas de Servicios para Proyectos (UNOPS), la Organización Internacional del Trabajo (OIT), la Organización Mundial del Turismo (OMT), la Conferencia de las Naciones Unidas sobre Comercio y Desarrollo (UNCTAD), el Mecanismo Mundial de la Convención de las Naciones Unidas de Lucha contra la Desertificación, y el Programa de ONU-Agua para la Promoción y la Comunicación en el marco del Decenio y la Estrategia de las Naciones Unidas para la Reducción de Desastres (EIRD).Confiamos en que este documento estimule e informe los debates sobre el desarrollo en América Latina y el Caribe y ayude a generar un renovado compromiso político con el desarrollo sostenible y el establecimiento de metas que nos permitan avanzar como región y contribuir a un desarrollo más equitativo y sostenible. Alicia BárcenaSecretaria EjecutivaComisión Económica para América Latina y el Caribe (CEPAL)Coordinadora del Mecanismo de Coordinación RegionalHeraldo MuñozAdministrador Auxiliar y Director Regional para América Latina y el Caribe del Programa de las Naciones Unidas para el Desarrollo (PNUD)Coordinador del Grupo Regional de las Naciones Unidas para el Desarrollo
+ </p>
+</div>
+
+ <img src="imagenes/planeta5.jpg" width="60%" height="60%">
+</div>
+ <center>
+<div data-role="main" class="iu-content">
+  <div data-role="collapsible" data-comtent-theme="false">
+   <h1>Dia internacional de la salud </h1>
+    <p>celebralo este 22 de abril</p>
+    <div>
+          <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/planeta12.jpg',1)"><img src="imagenes/planeta16.jpg"  width="60%" height="60%" id="Image24"></a>
+    </div>
+   </div>
+  </div>
+  </center>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<div>
+<img src="imagenes/planeta.png" width="46" height="46" alt="pie">
+</div>
+<h4>Aplicacion 4 dia internacional de la madre tierra</h4>
+<h4>Nicolas Sanchez Cuellar</h4>
+    </div>
+  </div>
+ </body>
+</html>
